@@ -4,7 +4,7 @@
 #
 Name     : php-vld
 Version  : 0.17.1
-Release  : 11
+Release  : 12
 URL      : https://pecl.php.net/get/vld-0.17.1.tgz
 Source0  : https://pecl.php.net/get/vld-0.17.1.tgz
 Summary  : No detailed summary available
