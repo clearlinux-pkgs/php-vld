@@ -4,7 +4,7 @@
 #
 Name     : php-vld
 Version  : 0.17.2
-Release  : 14
+Release  : 15
 URL      : https://pecl.php.net/get/vld-0.17.2.tgz
 Source0  : https://pecl.php.net/get/vld-0.17.2.tgz
 Summary  : No detailed summary available
@@ -48,4 +48,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/vld.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/vld.so
