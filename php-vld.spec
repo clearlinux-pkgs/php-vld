@@ -4,7 +4,7 @@
 #
 Name     : php-vld
 Version  : 0.18.0
-Release  : 31
+Release  : 32
 URL      : https://pecl.php.net/get/vld-0.18.0.tgz
 Source0  : https://pecl.php.net/get/vld-0.18.0.tgz
 Summary  : No detailed summary available
@@ -51,7 +51,7 @@ make  %{?_smp_mflags}
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/php-vld
-cp %{_builddir}/vld-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-vld/e67db0ccdc7dc6c502aadb0c020212cda347ed39 || :
+cp %{_builddir}/vld-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-vld/e67db0ccdc7dc6c502aadb0c020212cda347ed39
 %make_install
 
 
@@ -60,7 +60,7 @@ cp %{_builddir}/vld-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/p
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20210902/vld.so
+/usr/lib64/extensions/no-debug-non-zts-20220829/vld.so
 
 %files license
 %defattr(0644,root,root,0755)
