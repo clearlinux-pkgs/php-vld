@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : php-vld
-Version  : 0.19.0
-Release  : 80
-URL      : https://pecl.php.net/get/vld-0.19.0.tgz
-Source0  : https://pecl.php.net/get/vld-0.19.0.tgz
+Version  : 0.19.1
+Release  : 81
+URL      : https://pecl.php.net/get/vld-0.19.1.tgz
+Source0  : https://pecl.php.net/get/vld-0.19.1.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -45,10 +45,10 @@ license components for the php-vld package.
 
 
 %prep
-%setup -q -n vld-0.19.0
-cd %{_builddir}/vld-0.19.0
+%setup -q -n vld-0.19.1
+cd %{_builddir}/vld-0.19.1
 pushd ..
-cp -a vld-0.19.0 buildavx2
+cp -a vld-0.19.1 buildavx2
 popd
 
 %build
